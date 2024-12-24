@@ -1,0 +1,41 @@
+:root {
+  --clr_heading: #0d152e;
+  --clr_para: #333333;
+  --clr_white: #ffffff;
+  --clr_btn_bg_1: #3c50e0;
+  --clr_btn_bg_2: #fdb400;
+}
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+section {
+  padding: 50px 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+  color: var(--clr_heading);
+}
+p {
+  color: var(--clr_para);
+}
+a.btn {
+  padding: 20px 40px;
+  background: var(--clr_btn_bg_1);
+  border-radius: 28px;
+  border: 2px solid transparent;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: capitalize;
+  color: var(--clr_white);
+}
+a.btn:hover {
+  border: 2px solid var(--clr_btn_bg_1);
+  color: var(--clr_btn_bg_1);
+  background: transparent;
+}
