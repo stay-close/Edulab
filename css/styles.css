@@ -39,3 +39,32 @@ a.btn:hover {
   color: var(--clr_btn_bg_1);
   background: transparent;
 }
+
+/* ====Header Area==== */
+
+.header_area {
+  background: rgba(100, 131, 246, 0.5);
+}
+
+.header_content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+}
+.header_content a.btn {
+  padding: 15px 20px;
+  background: transparent;
+  border: 2px solid var(--clr_white);
+}
+.main_menu {
+  margin-left: auto;
+}
+.main_menu nav ul {
+  display: flex;
+}
+.main_menu nav ul li a {
+  padding: 15px 20px;
+  color: var(--clr_white);
+}
+/* ====Header Area==== */
