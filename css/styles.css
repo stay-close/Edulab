@@ -282,3 +282,32 @@ a.btn:hover {
   margin-top: 20px;
 }
 /*====Career Area ====*/
+
+/* ====category_top_area==== */
+
+.category_top_area {
+  background: url("../images/cat_top_bg.png");
+  min-height: 496px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  background-position: center;
+  background-size: cover;
+}
+.cat_top_content h2 {
+  font-size: 56px;
+  line-height: 64px;
+  color: var(--clr_white);
+}
+.cat_top_content p {
+  font-size: 16px;
+  line-height: 32px;
+  color: var(--clr_white);
+  max-width: 600px;
+  margin: 0 auto;
+  margin: 30px 0;
+}
+
+/* ====category_top_area==== */
