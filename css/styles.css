@@ -128,3 +128,32 @@ a.btn:hover {
   zoom: 80%;
 }
 /* ==== Hero area ==== */
+
+/* ====Our Service Area ==== */
+.service_area{
+  padding-bottom: 300px;
+}
+.service_content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+.single_service {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+}
+.single_service .service_icon img {
+  height: 60px;
+  width: 60px;
+}
+.single_service .content h4 {
+  font-size: 20px;
+  margin-bottom: 25px;
+}
+.single_service .content p {
+  color: #81838c;
+  line-height: 28px;
+}
+
+/* ====Our Service Area ==== */
