@@ -589,3 +589,36 @@ span.shape:nth-child(5) {
 }
 
 /* ====Our User Area ==== */
+.get_started_content {
+  background: #416ff4;
+  padding: 60px 30px;
+  width: 90%;
+  margin: 0 auto;
+  border-radius: 20px;
+}
+.get_heading {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: space-between;
+  align-items: center;
+ 
+}
+.get_heading h3 {
+  font-size: 34px;
+  line-height: 50px;
+  color: #fff;
+}
+.get_heading a.btn {
+  background: #fdb400;
+  width: fit-content;
+  justify-self: end;
+}
+.get_heading a.btn:hover {
+  color: #fff;
+  background: transparent;
+  border: 2px solid #fdb400;
+}
+
+/* ====get_started_area==== */
+
+/* ====get_started_area==== */
