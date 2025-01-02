@@ -579,3 +579,13 @@ span.shape:nth-child(5) {
   color: var(--clr_white);
 }
 /* ====Featue area ==== */
+
+/* ====Our User Area ==== */
+
+.our_user_content ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* ====Our User Area ==== */
