@@ -589,6 +589,8 @@ span.shape:nth-child(5) {
 }
 
 /* ====Our User Area ==== */
+
+/* ====get_started_area==== */
 .get_started_content {
   background: #416ff4;
   padding: 60px 30px;
@@ -601,7 +603,6 @@ span.shape:nth-child(5) {
   grid-template-columns: 1fr 1fr;
   justify-content: space-between;
   align-items: center;
- 
 }
 .get_heading h3 {
   font-size: 34px;
@@ -621,4 +622,36 @@ span.shape:nth-child(5) {
 
 /* ====get_started_area==== */
 
-/* ====get_started_area==== */
+/* ====footer area==== */
+
+.footer_area {
+  background: #07003b;
+  padding: 50px 0;
+  color: #fff;
+}
+.footer_copyright_content,
+.footer_copyright_content ul,
+.footer_links ul,
+.footer_links ul li ul {
+  display: flex;
+}
+.footer_copyright_content,
+.footer_links ul {
+  justify-content: space-between;
+}
+
+.footer_links ul li h4 {
+  color: var(--clr_white);
+  margin-bottom: 40px;
+}
+.footer_links ul li ul {
+  flex-direction: column;
+}
+.footer_links ul li ul li a {
+  padding: 15px 20px 15px 0;
+}
+.footer_links ul li ul li a:hover {
+  text-decoration: underline;
+}
+
+/* ====footer area==== */
