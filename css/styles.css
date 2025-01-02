@@ -629,6 +629,10 @@ span.shape:nth-child(5) {
   padding: 50px 0;
   color: #fff;
 }
+.footer_links {
+  padding-bottom: 70px;
+}
+
 .footer_copyright_content,
 .footer_copyright_content ul,
 .footer_links ul,
@@ -654,4 +658,25 @@ span.shape:nth-child(5) {
   text-decoration: underline;
 }
 
+.footer_area hr {
+  border-color: #d8d8d8;
+}
+
+.footer_copyright_content {
+  padding-top: 30px;
+}
+.footer_copyright_content p {
+  color: var(--clr_white);
+}
+.footer_copyright_content ul {
+  gap: 20px;
+}
+.footer_copyright_content ul li a{
+  color: #687497;
+
+  
+}
+.footer_copyright_content ul li a :hover {
+  color: var(--clr_white);
+}
 /* ====footer area==== */
