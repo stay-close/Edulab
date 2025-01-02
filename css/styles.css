@@ -526,3 +526,56 @@ span.shape:nth-child(5) {
   line-height: 32px;
 }
 /* ====testimonial area==== */
+
+/* ====Featue area ==== */
+
+.our_feature_content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+}
+.feature_list {
+  position: relative;
+}
+.feature_list span.f_shape {
+  position: absolute;
+  display: none;
+}
+.feature_list ul li {
+  background: #ebf3ff;
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.feature_list ul li i {
+  height: 112px;
+  width: 112px;
+  font-size: 30px;
+  background: var(--clr_white);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #3c50e0;
+}
+.feature_list ul li .details h3 {
+  font-size: 28px;
+  line-height: 32px;
+  padding-bottom: 10px;
+}
+.feature_list ul li .details p {
+  line-height: 32px;
+}
+.feature_list ul li:hover {
+  background: #3c50e0;
+}
+.feature_list ul li:hover h3,
+.feature_list ul li:hover p {
+  color: var(--clr_white);
+}
+/* ====Featue area ==== */
