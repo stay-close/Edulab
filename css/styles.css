@@ -499,24 +499,29 @@ span.shape:nth-child(5) {
   top: 40%;
   right: 10%;
 }
+.feature_heading,
 .testimonial_details {
   padding: 50px;
 }
+.feature_heading h4,
 .testimonial_details h4 {
   line-height: 32px;
   color: #6483f6;
   text-transform: uppercase;
 }
+.feature_heading h2,
 .testimonial_details h2 {
   line-height: 64px;
   font-size: 56px;
   max-width: 80%;
 }
+.feature_heading h5,
 .testimonial_details h5 {
   line-height: 32px;
   font-size: 20px;
   padding: 20px 0;
 }
+.feature_heading p,
 .testimonial_details p {
   line-height: 32px;
 }
