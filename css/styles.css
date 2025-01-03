@@ -591,6 +591,11 @@ span.shape:nth-child(5) {
 /* ====Our User Area ==== */
 
 /* ====get_started_area==== */
+.get_started_area {
+  margin-bottom: -178px;
+  z-index: 1111;
+  position: relative;
+}
 .get_started_content {
   background: #416ff4;
   padding: 60px 30px;
@@ -628,6 +633,7 @@ span.shape:nth-child(5) {
   background: #07003b;
   padding: 50px 0;
   color: #fff;
+  padding-top: 200px;
 }
 .footer_links {
   padding-bottom: 70px;
